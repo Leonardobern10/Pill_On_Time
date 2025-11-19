@@ -228,14 +228,69 @@ await addPill({
 
 ## 🖼 Screenshots (opcional)
 
-```
-/docs/screenshots/home.png  
-/docs/screenshots/history.png  
-/docs/screenshots/form.png  
-```
+### Light
 
+<img src="public/screenshots/Home1.jpg" style="width: 250px; border-radius: 10px;" />
+<img src="public/screenshots/Home2.jpg" style="width: 250px; border-radius: 10px;" />
+<img src="public/screenshots/ListaRemedios.jpg" style="width: 250px; border-radius: 10px;" />
+<img src="public/screenshots/ListaRemedios2.jpg" style="width: 250px; border-radius: 10px;" />
+<img src="public/screenshots/ListaRemedios_pesquisa.jpg" style="width: 250px; border-radius: 10px;" />
+<img src="public/screenshots/SemRemediosHoje.jpg" style="width: 250px; border-radius: 10px;" />
+<img src="public/screenshots/TomarRemedios.jpg" style="width: 250px; border-radius: 10px;" />
+<img src="public/screenshots/Historicojpg" style="width: 250px; border-radius: 10px;" />
+<img src="public/screenshots/CadastrarRemedio.jpg" style="width: 250px; border-radius: 10px;" />
 
+### Dark
+<img src="public/screenshots/Home_DARK.jpg" style="width: 250px; border-radius: 10px;" />
+<img src="public/screenshots/Home2_DARK.jpg" style="width: 250px; border-radius: 10px;" />
+<img src="public/screenshots/Home3_DARK.jpg" style="width: 250px; border-radius: 10px;" />
+<img src="public/screenshots/Home4_DARK.jpg" style="width: 250px; border-radius: 10px;" />
+<img src="public/screenshots/ListaRemedios_DARK.jpg" style="width: 250px; border-radius: 10px;" />
+<img src="public/screenshots/ListaRemedios_pesquisa_DARK.jpg" style="width: 250px; border-radius: 10px;" />
+<img src="public/screenshots/History_DARK.jpg" style="width: 250px; border-radius: 10px;" />
+<img src="public/screenshots/AtualizarRemedio_DARK.jpg" style="width: 250px; border-radius: 10px;" />
+<img src="public/screenshots/AdicionarRemedio_DARK.jpg" style="width: 250px; border-radius: 10px;" />
 
+## Modelagem
+### Casos de uso
+
+<img src="public/uml/CasosDeUso.png" style="width: 250px; border-radius: 10px;" />
+
+### Classes
+<img src="public/uml/Classes1.png" style="width: 250px; border-radius: 10px;" />
+<img src="public/uml/Classes2.png" style="width: 250px; border-radius: 10px;" />
+
+### Atividades
+
+<div>
+<img src="public/uml/AtualizarRegistro.png" style="width: 250px; border-radius: 10px;" />
+<p>Atualizar Registro</p>
+</div>
+
+<div>
+<img src="public/uml/CadastroRemedio.png" style="width: 250px; border-radius: 10px;" />
+<p>Cadastrar Remedio</p>
+</div>
+
+<div>
+<img src="public/uml/ConsultarMedicamentos.png" style="width: 250px; border-radius: 10px;" />
+<p>Cadastrar medicamentos</p>
+</div>
+
+<div>
+<img src="public/uml/PesquisarPorNome.png" style="width: 250px; border-radius: 10px;" />
+<p>Pesquisar remedio por nome</p>
+</div>
+
+<div>
+<img src="public/uml/RegistrarHistorico.png" style="width: 250px; border-radius: 10px;" />
+<p>Registrar historico</p>
+</div>
+
+<div>
+<img src="public/uml/TrocarTema.png" style="width: 250px; border-radius: 10px;" />
+<p>Trocar tema</p>
+</div>
 
 ## 🤝 Contribuindo
 
