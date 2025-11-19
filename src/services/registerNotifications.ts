@@ -34,19 +34,3 @@ export const dispatchAlarm = (time: string) => {
     },
   });
 };
-
-// Dispara uma notificação de teste após X segundos
-export const dispatchTestNotification = async (seconds: number = 5) => {
-  await Notifications.scheduleNotificationAsync({
-    content: {
-      title: "Teste de Notificação",
-      body: "Essa notificação é só para teste!",
-      sound: true, // som padrão
-      priority: Notifications.AndroidNotificationPriority.MAX,
-    },
-    trigger: {
-      trigger: new Date(Date.now() + seconds * 1000),
-      repeats: false, // dispara apenas uma vez
-    },
-  });
-};
