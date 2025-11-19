@@ -138,8 +138,9 @@ npm start
 2. O usuário deve abrir o aplicativo **Expo Go**
 3. Selecionar a opção Scan QR e apontar
 4. Apontar a câmera para o QR CODE exibido na tela
-    4.1 Ou, digitar o endereço disponivel na tela, na opção Enter URL
-5. Automaticamente o aplicativo será executado no dispositivo.
+
+   4.1 Ou, digitar o endereço disponivel na tela, na opção Enter URL
+6. Automaticamente o aplicativo será executado no dispositivo.
 
 
 ## 🗃 Banco de Dados (SQLite)
