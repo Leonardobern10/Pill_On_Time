@@ -14,11 +14,10 @@ export default function History({ navigation }: any) {
   const [history, setHistory] = useState<HistoryEntryType[] | null>(null);
   const styleCustom = historyStyle(colors);
 
-  const get = async () => {
+  const get = useCallback(async () => {
     const data = await getHistory();
     setHistory(data);
-    console.log(history);
-  };
+  }, []);
 
   useFocusEffect(
     useCallback(() => {

@@ -73,7 +73,7 @@ export const Home = () => {
           pillsPendents={countToday}
         />
         <View style={style.pillsGroup}>
-          {pills.length === 0 || !pills ? (
+          {!pills || pills.length === 0 ? (
             <NullPills text="Sem remédios para hoje" />
           ) : (
             pills?.map((el, index) => (
